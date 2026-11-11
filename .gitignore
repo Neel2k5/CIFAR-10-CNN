@@ -1,0 +1,41 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environments
+.env
+.venv
+env/
+venv/
+ENV/
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+*/.ipynb_checkpoints/*
+
+# Keras / TensorFlow saved models, weights, and logs (avoid pushing huge binaries)
+*.h5
+*.hdf5
+*.keras
+*.pb
+*.ckpt
+*.ckpt.*
+checkpoint
+saved_model/
+logs/
+runs/
+tensorboard/
+
+# Datasets (CIFAR-10 auto-downloads via Keras, no need to commit raw data)
+data/
+datasets/
+cifar-10-batches-py/
+*.tar.gz
+*.zip
+
+# IDE & OS clutter
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
